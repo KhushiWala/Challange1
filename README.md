@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!DOCTYPE html>
+<html lang="en">
 
-## Getting Started
+<body>
+  <h1>QR Code Component Challenge</h1>
+  <p>This project builds a responsive QR code component based on the design specifications provided by Frontend Mentor.</p>
+  
+  <h2>Website Link</h2>
+  <p><a href="https://qr-code-component-khushiwala.vercel.app/">qr-code-component-khushiwala.vercel.app</a></p>
+ 
 
-First, run the development server:
+ 
+  <h2>Language and Tools</h2>
+  <p>Basic HTML and CSS with Next.js framework. </p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+ 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  <h2>Preview Images</h2>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+  <p>Here are previews of the component on various screen sizes:</p>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+  <figure>
+    <figcaption><b>Desktop Preview</b></figcaption>
+    <img src="./public/Images/Desktop_preview.png" alt="Desktop preview of the QR code component">
+  </figure>
 
-## Learn More
+  <figure>
+      <figcaption><b>Mobile Preview</b></figcaption>
+    <img src="./public/Images/Mobile_preview.png" alt="Mobile preview of the QR code component">
+  </figure>
 
-To learn more about Next.js, take a look at the following resources:
+  <h2>Design Specifications</h2>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  <p>Refer to the Frontend Mentor challenge page for detailed design specifications, including colors, fonts, and layout. <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a></p>
+  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  <i><b><p>Happy coding!</p></b></i>
+</body>
+</html>
