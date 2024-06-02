@@ -2,26 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.main{
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 360px;
+    margin: 0 auto;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.card{
+    background-color: hsl(0, 0%, 100%);
+    padding: 18px;
+    border-radius: 17px;
+    text-align: center;
+    margin: 0 1em;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.card image{
+    width: 100%;
+    border-radius: 17px;
+}
+
+.text{
+    padding: 22px 10px ;
+
+}
+
+.text h3{
+    color: hsl(218, 44%, 22%);
+    padding-bottom: 15px ;
+}
+
+.text p{
+    color: hsl(220, 15%, 55%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align:center;
+    background-color:white ;
+    color: hsl(218, 44%, 22%) ;
+    
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
